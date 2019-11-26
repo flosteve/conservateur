@@ -1,62 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="Search bar">
-      <change afterPath="$PROJECT_DIR$/.idea/conservateur.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/connexion.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/logo-conservateur.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/_header.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/_header.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/_layout.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/_layout.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Layout/_layout.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/_breakpoints.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/_colors.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/_fonts.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/_mixins.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Bold.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-BoldItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-BoldItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Headline.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Headline.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Headline.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Italic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Italic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Light.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Light.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-LightItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-LightItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-LightItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Medium.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-MediumItalic.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-MediumItalic.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Regular.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/variables/fonts/TSTARPRO-Regular.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/_layout.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -127,8 +76,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574756192834</updated>
-      <workItem from="1574756194421" duration="10339000" />
+      <workItem from="1574756194421" duration="14416000" />
     </task>
+    <task id="LOCAL-00001" summary="Search bar">
+      <created>1574767613274</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1574767613274</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -146,6 +103,8 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Search bar" />
     <option name="LAST_COMMIT_MESSAGE" value="Search bar" />

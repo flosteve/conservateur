@@ -16,11 +16,26 @@ header.header-top {
     background-color: $thirdColor;
     margin-left: 5rem;
     position: relative;
+    color: black;
     @include md {
       margin-left: 0;
     }
     .header-search-container {
       padding: 2rem;
+      .header-search-filter {
+        label, .MuiFormControlLabel-label {
+          @include font-light;
+        }
+        .header-search-label {
+          display: inline-flex;
+          align-items: center;
+          margin-right: 2rem;
+          color: black;
+        }
+        .Mui-checked {
+          color: $secondaryColor !important;
+        }
+      }
       .header-search-input {
         flex-wrap: nowrap;
         .header-search-field {
@@ -34,6 +49,10 @@ header.header-top {
           align-items: center;
           justify-content: center;
           background-color: $secondaryColor;
+          & svg {
+            font-size: 2rem;
+            color: white;
+          }
         }
       }
     }
