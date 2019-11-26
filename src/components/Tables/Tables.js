@@ -26,47 +26,84 @@ const Tables = () => {
       <TableHead>
         <TableRow>
           <TableCell align="center" sortDirection="desc">
-            <TableSortLabel direction="desc" active={true} className="active">
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+              className="active"
+            >
               Nom
             </TableSortLabel>
           </TableCell>
           <TableCell>
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Morning Star
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Quantalys
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Cat.
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               SRRI
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Perf. Ytd
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Perf. N-1
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Perf. 3 ans
             </TableSortLabel>
           </TableCell>
           <TableCell align="center">
-            <TableSortLabel direction="desc" active={true}>
+            <TableSortLabel
+              direction="desc"
+              active={true}
+              IconComponent={ArrowDropDownIcon}
+            >
               Doc.
             </TableSortLabel>
           </TableCell>
