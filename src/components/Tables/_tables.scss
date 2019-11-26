@@ -1,0 +1,39 @@
+table.table-main {
+  margin: 2rem 0;
+  thead {
+    tr {
+      th {
+        font-size: 15px;
+        @include font-bold;
+        .active {
+          color: $secondaryColor;
+          svg {
+            color: $secondaryColor !important;
+          }
+        }
+      }
+    }
+  }
+  tbody {
+    tr {
+      &:nth-child(odd) {
+        background-color: $fourthColor;
+      }
+      td {
+        font-size: 15px;
+        @include font-light;
+        text-transform: uppercase;
+        &.table-stars {
+          padding: 0;
+          min-width: 135px;
+        }
+        .MuiGrid-container {
+          flex-wrap: nowrap;
+          & > div {
+            padding: 0 5px;
+          }
+        }
+      }
+    }
+  }
+}

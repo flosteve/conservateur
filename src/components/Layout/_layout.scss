@@ -1,3 +1,18 @@
 body {
   @include font-regular;
+  .page-container {
+    padding-right: 5rem;
+    padding-left: 5rem;
+    padding-top: 2rem;
+    @include md {
+      padding-right: 2rem;
+      padding-left: 2rem;
+    }
+  }
+
+}
+
+h1 {
+  font-size: 30px !important;
+  @include font-light;
 }

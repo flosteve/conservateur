@@ -2,10 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/etoile-jaune.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/fonds-disponibles-icone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Fonds/Fonds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Fonds/_fonds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/HeaderTabs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/_searchBar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tables/Tables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tables/_tables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/_layout.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_fonts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +55,7 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/components/Fonds" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.stylelint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -45,12 +69,14 @@
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="prettierjs.PrettierConfiguration.Package" value="/usr/local/lib/node_modules/prettier" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/variables" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/Fonds" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
   </component>
@@ -76,7 +102,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574756192834</updated>
-      <workItem from="1574756194421" duration="14416000" />
+      <workItem from="1574756194421" duration="29616000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -85,7 +111,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574767613274</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Header Chekboxes">
+      <created>1574774629223</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574774629223</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -107,6 +140,7 @@
     <option name="CHECK_NEW_TODO" value="false" />
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Search bar" />
-    <option name="LAST_COMMIT_MESSAGE" value="Search bar" />
+    <MESSAGE value="Header Chekboxes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header Chekboxes" />
   </component>
 </project>

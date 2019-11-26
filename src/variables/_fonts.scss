@@ -13,7 +13,7 @@ $default-font-stack: 'Roboto', 'Open Sans', sans-serif;
 }
 
 @mixin font-light {
-  font-family: 'TSTARPRO-Light', $default-font-stack;
+  font-family: 'TSTARPRO-Light', $default-font-stack !important;
 }
 
 @mixin font-bolder {

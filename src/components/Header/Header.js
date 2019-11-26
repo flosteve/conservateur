@@ -1,28 +1,13 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Grid,
-  IconButton,
-  InputBase,
-  FormControl,
-  FormLabel,
-  RadioGroup,
-  Radio,
-  FormControlLabel
-} from "@material-ui/core";
-import SearchIcon from "@material-ui/icons/Search";
+import { AppBar, Toolbar, Grid, IconButton } from "@material-ui/core";
 import logo from "../../assets/icons/logo-conservateur.png";
 import connexion from "../../assets/icons/connexion.png";
+import SearchBar from "../SearchBar/SearchBar";
+import HeaderTabs from "../HeaderTabs/HeaderTabs";
 
 const Header = () => {
-  const [value, setValue] = React.useState("nom");
-
-  const handleChange = event => {
-    setValue(event.target.value);
-  };
   return (
-    <AppBar position="sticky" className="header-top">
+    <AppBar position="static" className="header-top">
       <Toolbar className="header-container">
         <Grid container className="header-main-grid">
           <Grid item xs={6} md={10}>
@@ -37,58 +22,13 @@ const Header = () => {
           </Grid>
         </Grid>
       </Toolbar>
-      <Toolbar className="header-search-bar">
-        <Grid container className="header-search-container" spacing={4}>
-          <Grid item xs={12} sm={6} md={8} className="header-search-filter">
-            <FormControl component="fieldset" fullWidth>
-              <RadioGroup
-                aria-label="choices"
-                name="choices"
-                value={value}
-                onChange={handleChange}
-                row
-              >
-                <FormLabel component="label" className="header-search-label">
-                  Affiner votre recherche:
-                </FormLabel>
-                <div>
-                  <FormControlLabel
-                    value="nom"
-                    control={<Radio />}
-                    label="Nom"
-                  />
-                  <FormControlLabel
-                    value="code"
-                    control={<Radio />}
-                    label="Code ISIN"
-                  />
-                  <FormControlLabel
-                    value="categorie"
-                    control={<Radio />}
-                    label="Catégorie"
-                  />
-                </div>
-              </RadioGroup>
-            </FormControl>
-          </Grid>
-          <Grid item xs={12} sm={6} md={4}>
-            <Grid container className="header-search-input">
-              <Grid item xs={10}>
-                <InputBase
-                  placeholder="Recherche"
-                  inputProps={{ "aria-label": "search" }}
-                  name="searchbar-input"
-                  className="header-search-field"
-                  fullWidth
-                />
-              </Grid>
-              <Grid item xs={2} className="header-search-icon">
-                <SearchIcon />
-              </Grid>
-            </Grid>
-          </Grid>
+      <SearchBar />
+      <Grid container>
+        <Grid item xs={3} sm={5} md={7} lg={8} xl={9} />
+        <Grid item xs={9} sm={7} md={5} lg={4} xl={3}>
+          <HeaderTabs />
         </Grid>
-      </Toolbar>
+      </Grid>
     </AppBar>
   );
 };

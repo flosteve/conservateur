@@ -70,6 +70,22 @@
 body {
   font-family: "TSTARPRO-Regular", "Roboto", "Open Sans", sans-serif;
 }
+body .page-container {
+  padding-right: 5rem;
+  padding-left: 5rem;
+  padding-top: 2rem;
+}
+@media (max-width: 768px) {
+  body .page-container {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
+}
+
+h1 {
+  font-size: 30px !important;
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+}
 
 header.header-top {
   box-shadow: none;
@@ -86,33 +102,123 @@ header.header-top .header-container .header-main-grid {
 header.header-top .header-container .header-main-grid .header-connexion {
   text-align: end;
 }
-header.header-top .header-search-bar {
+
+.header-search-bar {
   background-color: #d4c8bb;
   margin-left: 5rem;
   position: relative;
+  color: black;
 }
 @media (max-width: 768px) {
-  header.header-top .header-search-bar {
+  .header-search-bar {
     margin-left: 0;
   }
 }
-header.header-top .header-search-bar .header-search-container {
+.header-search-bar .header-search-container {
   padding: 2rem;
 }
-header.header-top .header-search-bar .header-search-container .header-search-input {
+.header-search-bar .header-search-container .header-search-filter label, .header-search-bar .header-search-container .header-search-filter .MuiFormControlLabel-label {
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+  font-size: 15px;
+}
+.header-search-bar .header-search-container .header-search-filter .header-search-label {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 2rem;
+  color: black;
+}
+.header-search-bar .header-search-container .header-search-filter .Mui-checked {
+  color: #a4917e !important;
+}
+.header-search-bar .header-search-container .header-search-input {
   flex-wrap: nowrap;
 }
-header.header-top .header-search-bar .header-search-container .header-search-input .header-search-field {
+.header-search-bar .header-search-container .header-search-input .header-search-field {
   background-color: white;
   padding: 5px 10px;
 }
-header.header-top .header-search-bar .header-search-container .header-search-input .header-search-icon {
+.header-search-bar .header-search-container .header-search-input .header-search-icon {
   height: auto;
   min-width: 50px;
   display: flex;
   align-items: center;
   justify-content: center;
   background-color: #a4917e;
+}
+.header-search-bar .header-search-container .header-search-input .header-search-icon svg {
+  font-size: 2rem;
+  color: white;
+}
+
+.header-tab-container .header-tab-item {
+  background-color: #a4917e;
+}
+.header-tab-container .header-tab-item.Mui-selected {
+  border: 2px solid #a4917e;
+  border-top: 0;
+  background-color: white;
+}
+.header-tab-container .header-tab-item.Mui-selected span {
+  color: #a4917e;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+  font-size: 18px;
+}
+.header-tab-container .header-tab-item span {
+  color: white;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+  font-size: 18px;
+  flex-direction: row;
+}
+.header-tab-container .header-tab-item span svg {
+  margin-right: 5px;
+  margin-top: 5px;
+  color: #efd567;
+}
+.header-tab-container .MuiTabs-indicator {
+  display: none;
+}
+
+.title-logo {
+  margin-right: 1rem;
+}
+.title-logo + div h1 {
+  text-transform: uppercase;
+}
+.title-logo + div h1 span {
+  color: #a4917e;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+}
+
+table.table-main {
+  margin: 2rem 0;
+}
+table.table-main thead tr th {
+  font-size: 15px;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+}
+table.table-main thead tr th .active {
+  color: #a4917e;
+}
+table.table-main thead tr th .active svg {
+  color: #a4917e !important;
+}
+table.table-main tbody tr:nth-child(odd) {
+  background-color: #edebe8;
+}
+table.table-main tbody tr td {
+  font-size: 15px;
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+  text-transform: uppercase;
+}
+table.table-main tbody tr td.table-stars {
+  padding: 0;
+  min-width: 135px;
+}
+table.table-main tbody tr td .MuiGrid-container {
+  flex-wrap: nowrap;
+}
+table.table-main tbody tr td .MuiGrid-container > div {
+  padding: 0 5px;
 }
 
 /*# sourceMappingURL=main.css.map */
