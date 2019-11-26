@@ -1,0 +1,41 @@
+header.header-top {
+  box-shadow: none;
+  background: none;
+  .header-container {
+    background-color: $primaryColor;
+    border-bottom: 2px solid $secondaryColor;
+    padding-left: 3rem;
+    .header-main-grid {
+      padding: 1rem 2rem;
+      .header-connexion {
+        text-align: end;
+      }
+    }
+  }
+  .header-search-bar {
+    background-color: $thirdColor;
+    margin-left: 5rem;
+    position: relative;
+    @include md {
+      margin-left: 0;
+    }
+    .header-search-container {
+      padding: 2rem;
+      .header-search-input {
+        flex-wrap: nowrap;
+        .header-search-field {
+          background-color: white;
+          padding: 5px 10px;
+        }
+        .header-search-icon {
+          height: auto;
+          min-width: 50px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background-color: $secondaryColor;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,49 @@
+$default-font-stack: 'Roboto', 'Open Sans', sans-serif;
+
+@each $variant in Bold, BoldItalic, Headline, Italic, Light, LightItalic, Medium, MediumItalic, Regular {
+
+  @font-face {
+    font-family: 'TSTARPRO-#{$variant}';
+    src: url('fonts/TSTARPRO-#{$variant}.eot');
+    src: url('fonts/TSTARPRO-#{$variant}.eot?#iefix') format('embedded-opentype'), url('fonts/TSTARPRO-#{$variant}.woff') format('woff'), url('fonts/TSTARPRO-#{$variant}.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+}
+
+@mixin font-light {
+  font-family: 'TSTARPRO-Light', $default-font-stack;
+}
+
+@mixin font-bolder {
+  font-family: 'TSTARPRO-Headline', $default-font-stack;
+}
+
+@mixin font-bold {
+  font-family: 'TSTARPRO-Bold', $default-font-stack;
+}
+
+@mixin font-medium {
+  font-family: 'TSTARPRO-Medium', $default-font-stack;
+}
+
+@mixin font-regular {
+  font-family: 'TSTARPRO-Regular', $default-font-stack;
+}
+
+@mixin font-italic {
+  font-family: 'TSTARPRO-Italic', $default-font-stack;
+}
+
+@mixin font-bold-italic {
+  font-family: 'TSTARPRO-BoldItalic', $default-font-stack;
+}
+
+@mixin font-light-italic {
+  font-family: 'TSTARPRO-LightItalic', $default-font-stack;
+}
+
+@mixin font-medium-italic {
+  font-family: 'TSTARPRO-MediumItalic', $default-font-stack;
+}

@@ -1,0 +1,118 @@
+/****************
+@import variables
+ ****************/
+@font-face {
+  font-family: "TSTARPRO-Bold";
+  src: url("fonts/TSTARPRO-Bold.eot");
+  src: url("fonts/TSTARPRO-Bold.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-Bold.woff") format("woff"), url("fonts/TSTARPRO-Bold.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-BoldItalic";
+  src: url("fonts/TSTARPRO-BoldItalic.eot");
+  src: url("fonts/TSTARPRO-BoldItalic.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-BoldItalic.woff") format("woff"), url("fonts/TSTARPRO-BoldItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-Headline";
+  src: url("fonts/TSTARPRO-Headline.eot");
+  src: url("fonts/TSTARPRO-Headline.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-Headline.woff") format("woff"), url("fonts/TSTARPRO-Headline.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-Italic";
+  src: url("fonts/TSTARPRO-Italic.eot");
+  src: url("fonts/TSTARPRO-Italic.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-Italic.woff") format("woff"), url("fonts/TSTARPRO-Italic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-Light";
+  src: url("fonts/TSTARPRO-Light.eot");
+  src: url("fonts/TSTARPRO-Light.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-Light.woff") format("woff"), url("fonts/TSTARPRO-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-LightItalic";
+  src: url("fonts/TSTARPRO-LightItalic.eot");
+  src: url("fonts/TSTARPRO-LightItalic.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-LightItalic.woff") format("woff"), url("fonts/TSTARPRO-LightItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-Medium";
+  src: url("fonts/TSTARPRO-Medium.eot");
+  src: url("fonts/TSTARPRO-Medium.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-Medium.woff") format("woff"), url("fonts/TSTARPRO-Medium.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-MediumItalic";
+  src: url("fonts/TSTARPRO-MediumItalic.eot");
+  src: url("fonts/TSTARPRO-MediumItalic.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-MediumItalic.woff") format("woff"), url("fonts/TSTARPRO-MediumItalic.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "TSTARPRO-Regular";
+  src: url("fonts/TSTARPRO-Regular.eot");
+  src: url("fonts/TSTARPRO-Regular.eot?#iefix") format("embedded-opentype"), url("fonts/TSTARPRO-Regular.woff") format("woff"), url("fonts/TSTARPRO-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+/****************
+@import components
+ ****************/
+body {
+  font-family: "TSTARPRO-Regular", "Roboto", "Open Sans", sans-serif;
+}
+
+header.header-top {
+  box-shadow: none;
+  background: none;
+}
+header.header-top .header-container {
+  background-color: #fafafa;
+  border-bottom: 2px solid #a4917e;
+  padding-left: 3rem;
+}
+header.header-top .header-container .header-main-grid {
+  padding: 1rem 2rem;
+}
+header.header-top .header-container .header-main-grid .header-connexion {
+  text-align: end;
+}
+header.header-top .header-search-bar {
+  background-color: #d4c8bb;
+  margin-left: 5rem;
+  position: relative;
+}
+@media (max-width: 768px) {
+  header.header-top .header-search-bar {
+    margin-left: 0;
+  }
+}
+header.header-top .header-search-bar .header-search-container {
+  padding: 2rem;
+}
+header.header-top .header-search-bar .header-search-container .header-search-input {
+  flex-wrap: nowrap;
+}
+header.header-top .header-search-bar .header-search-container .header-search-input .header-search-field {
+  background-color: white;
+  padding: 5px 10px;
+}
+header.header-top .header-search-bar .header-search-container .header-search-input .header-search-icon {
+  height: auto;
+  min-width: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #a4917e;
+}
+
+/*# sourceMappingURL=main.css.map */
