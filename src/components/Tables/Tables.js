@@ -1,6 +1,14 @@
 import React from "react";
 import StarIcon from "@material-ui/icons/Star";
+import documentIcon from "../../assets/icons/document.png";
+import rechercheIcon from "../../assets/icons/recherche-icone copie.png";
+import starYellowIcon from "../../assets/icons/etoile-jaune.png";
+import starYellowEmptyIcon from "../../assets/icons/etoile-jaune-vide.png";
+import starSecondaryIcon from "../../assets/icons/etoile-pleine copie-secondaire.png";
+import starSecondaryEmptyIcon from "../../assets/icons/etoile-vide-secondaire.png";
 import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
+
+import Data from "./customDataTables";
 
 import {
   Table,
@@ -11,64 +19,6 @@ import {
   TableSortLabel,
   Grid
 } from "@material-ui/core";
-
-const dataTableValues = [
-  {
-    nom: "Carmingnac Emerging Pat. E",
-    star: 4,
-    quantalys: 2,
-    category: "OPC",
-    srri: 3,
-    perfY: 8.43,
-    perfN: 8.43,
-    perf3: 8.43,
-    doc: "https://...."
-  },
-  {
-    nom: "Conservateur Horizon 2025 C",
-    star: 2,
-    quantalys: 4,
-    category: "OPC",
-    srri: 4,
-    perfY: 5.63,
-    perfN: 5.63,
-    perf3: 5.63,
-    doc: "https://...."
-  },
-  {
-    nom: "Oblivalor C",
-    star: 2,
-    quantalys: 4,
-    category: "OPC",
-    srri: 4,
-    perfY: 5.63,
-    perfN: 5.63,
-    perf3: 5.63,
-    doc: "https://...."
-  },
-  {
-    nom: "Pluvalor",
-    star: 2,
-    quantalys: 4,
-    category: "OPC",
-    srri: 4,
-    perfY: 5.63,
-    perfN: 5.63,
-    perf3: 5.63,
-    doc: "https://...."
-  },
-  {
-    nom: "Pluvalor Premium D",
-    star: 2,
-    quantalys: 4,
-    category: "OPC",
-    srri: 4,
-    perfY: 5.63,
-    perfN: 5.63,
-    perf3: 5.63,
-    doc: "https://...."
-  }
-];
 
 const Tables = () => {
   return (
@@ -123,35 +73,42 @@ const Tables = () => {
         </TableRow>
       </TableHead>
       <TableBody>
-        {dataTableValues.map(row => {
+        {Data.map(row => {
           return (
             <TableRow>
               <TableCell>
                 <Grid container>
-                  <StarIcon />
+                  <div className={row.favoris ? "favoris" : "pas-favoris"} />
                   <div>{row.nom}</div>
                 </Grid>
               </TableCell>
-              <TableCell className="table-stars">
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
+              <TableCell className="table-stars rating">
+                <div className="morningStar" />
+                <div className="morningStar" />
+                <div className="morningStar" />
+                <div className="morningStarEmpty" />
+                <div className="morningStarEmpty" />
               </TableCell>
-              <TableCell className="table-stars">
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
-                <StarIcon />
+              <TableCell className="table-stars rating">
+                <div className="morningStar" />
+                <div className="morningStar" />
+                <div className="morningStar" />
+                <div className="morningStarEmpty" />
+                <div className="morningStarEmpty" />
               </TableCell>
               <TableCell>{row.category}</TableCell>
               <TableCell>{row.srri}</TableCell>
               <TableCell>{row.perfY}</TableCell>
               <TableCell>{row.perfN}</TableCell>
               <TableCell>{row.perf3}</TableCell>
-              <TableCell>{row.doc}</TableCell>
+              <TableCell className="table-stars doc">
+                <a href="#">
+                  <img src={rechercheIcon} alt="loupe recherche" />
+                </a>
+                <a href="#">
+                  <img src={documentIcon} alt="document" />
+                </a>
+              </TableCell>
             </TableRow>
           );
         })}

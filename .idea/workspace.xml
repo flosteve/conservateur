@@ -2,34 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/etoile-jaune.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/fonds-disponibles-icone.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Fonds/Fonds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Fonds/_fonds.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/HeaderTabs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/SearchBar/_searchBar.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tables/Tables.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tables/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/document.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/etoile-jaune-vide.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/etoile-pleine copie-secondaire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/etoile-vide-secondaire.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/icons/recherche-icone copie.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tables/customDataTables.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/icons/etoile-jaune.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/icons/etoile-jaune.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tables/Tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/Tables.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tables/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/_tables.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_colors.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_fonts.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -48,6 +32,7 @@
   <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 5.6" />
   <component name="ProjectId" id="1U95uSwZcPUpfPlxO7I7PczmB7D" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
@@ -102,7 +87,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574756192834</updated>
-      <workItem from="1574756194421" duration="29616000" />
+      <workItem from="1574756194421" duration="32472000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -118,7 +103,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574774629223</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Table 1">
+      <created>1574791994142</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574791994142</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +133,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Search bar" />
     <MESSAGE value="Header Chekboxes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Header Chekboxes" />
+    <MESSAGE value="Table 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Table 1" />
   </component>
 </project>
