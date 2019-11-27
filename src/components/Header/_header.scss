@@ -13,3 +13,24 @@ header.header-top {
     }
   }
 }
+
+#main-menu {
+  .MuiMenu-paper {
+    border-radius: 0;
+    .MuiMenu-list {
+      background: $modalBackground;
+      padding: 0;
+
+      li {
+        @include font-light;
+        font-size: 14px;
+        padding: 1rem 5rem 1rem 1rem;
+        text-transform: uppercase;
+        &:hover {
+          background-color: $secondaryColor;
+          color: white;
+        }
+      }
+    }
+  }
+}

@@ -137,6 +137,24 @@ header.header-top .header-container .header-main-grid .header-connexion {
   text-align: end;
 }
 
+#main-menu .MuiMenu-paper {
+  border-radius: 0;
+}
+#main-menu .MuiMenu-paper .MuiMenu-list {
+  background: #edeae6;
+  padding: 0;
+}
+#main-menu .MuiMenu-paper .MuiMenu-list li {
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+  font-size: 14px;
+  padding: 1rem 5rem 1rem 1rem;
+  text-transform: uppercase;
+}
+#main-menu .MuiMenu-paper .MuiMenu-list li:hover {
+  background-color: #a4917e;
+  color: white;
+}
+
 .header-search-bar {
   background-color: #d4c8bb;
   margin-left: 5rem;

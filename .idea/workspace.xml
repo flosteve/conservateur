@@ -4,15 +4,9 @@
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Layout/_layout.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/_layout.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Modals/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFondsModal.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFondsModal.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tables/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/variables/_breakpoints.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_breakpoints.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -103,7 +97,7 @@
       <workItem from="1574843800600" duration="534000" />
       <workItem from="1574844547725" duration="1134000" />
       <workItem from="1574845778968" duration="17398000" />
-      <workItem from="1574865866845" duration="3267000" />
+      <workItem from="1574865866845" duration="4799000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -154,7 +148,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574864206329</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Modal 3 responsive">
+      <created>1574869445318</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1574869445318</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -198,7 +199,8 @@
     <MESSAGE value="Change Icon component" />
     <MESSAGE value="Modal 1" />
     <MESSAGE value="Modal 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modal 2" />
+    <MESSAGE value="Modal 3 responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal 3 responsive" />
   </component>
   <component name="masterDetails">
     <states>
