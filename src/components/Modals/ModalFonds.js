@@ -8,9 +8,9 @@ import {
   List,
   ListItem,
   Box,
-  Link,
-  TableCell
+  Link
 } from "@material-ui/core";
+
 import CloseIcon from "@material-ui/icons/Close";
 import TableFondsModal from "../../components/Tables/TableFonds/TablesFondsModal";
 import DocumentIcon from "../../assets/icons/document.png";
@@ -20,6 +20,7 @@ const ModalFonds = ({ open, setOpen }) => {
   const handleClose = () => {
     setOpen(false);
   };
+
   return (
     <Dialog
       open={open}

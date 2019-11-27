@@ -22,6 +22,11 @@
       .Mui-checked {
         color: $secondaryColor !important;
       }
+      .MuiRadio-colorSecondary {
+        &:hover {
+          background: $borderModal;
+        }
+      }
     }
     .header-search-input {
       flex-wrap: nowrap;
@@ -39,6 +44,15 @@
         & svg {
           font-size: 2rem;
           color: white;
+        }
+        button {
+          padding: 5px 12px;
+          &:hover {
+            background: $secondaryColor;
+            svg {
+              color: $thirdColor;
+            }
+          }
         }
       }
     }

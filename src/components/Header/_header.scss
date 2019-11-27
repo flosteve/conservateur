@@ -9,6 +9,11 @@ header.header-top {
       padding: 1rem 2rem;
       .header-connexion {
         text-align: end;
+        button {
+          &:hover {
+            background: $borderModal;
+          }
+        }
       }
     }
   }
@@ -20,7 +25,7 @@ header.header-top {
     .MuiMenu-list {
       background: $modalBackground;
       padding: 0;
-
+      border: 1px solid $secondaryColor;
       li {
         @include font-light;
         font-size: 14px;
@@ -29,6 +34,7 @@ header.header-top {
         &:hover {
           background-color: $secondaryColor;
           color: white;
+          @include font-bold;
         }
       }
     }

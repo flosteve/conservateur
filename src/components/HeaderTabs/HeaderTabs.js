@@ -10,6 +10,7 @@ const HeaderTabs = () => {
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
+
   return (
     <>
       <Tabs

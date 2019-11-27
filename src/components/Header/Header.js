@@ -7,6 +7,7 @@ import {
   Menu,
   MenuItem
 } from "@material-ui/core";
+
 import logo from "../../assets/icons/logo-conservateur.png";
 import connexion from "../../assets/icons/connexion.png";
 import SearchBar from "../SearchBar/SearchBar";
@@ -22,6 +23,7 @@ const Header = () => {
   const handleClose = () => {
     setAnchorEl(null);
   };
+
   return (
     <AppBar position="static" className="header-top">
       <Toolbar className="header-container">

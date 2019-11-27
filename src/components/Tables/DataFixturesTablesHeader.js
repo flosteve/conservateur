@@ -61,7 +61,7 @@ const data = [
     active: true,
     href: "!#",
     className: ""
-  },
+  }
 ];
 
 export default data;

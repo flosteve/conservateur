@@ -1,12 +1,4 @@
 import React from "react";
-import documentIcon from "../../../assets/icons/document.png";
-import rechercheIcon from "../../../assets/icons/recherche-icone copie.png";
-import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
-
-import DataHeader from "../customDataTablesHeader";
-import DataRows from "../customDataTablesRows";
-import ModalFonds from "../../Modals/ModalFonds";
-
 import {
   Table,
   TableBody,
@@ -16,14 +8,18 @@ import {
   TableSortLabel,
   Grid,
   Box,
-  Link,
-  Dialog,
-  DialogTitle,
-  DialogContent,
-  DialogContentText
-} from "@material-ui/core/index";
+  Link
+} from "@material-ui/core";
 
-const TablesFonds = () => {
+import DocumentIcon from "../../../assets/icons/document.png";
+import RechercheIcon from "../../../assets/icons/recherche-icone copie.png";
+import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
+
+import DataFixturesHeader from "../DataFixturesTablesHeader";
+import DataFixturesRows from "../DataFixturesTablesRows";
+import ModalFonds from "../../Modals/ModalFonds";
+
+const TableFonds = () => {
   const [open, setOpen] = React.useState(false);
   const handleClickOpen = () => {
     setOpen(true);
@@ -34,7 +30,7 @@ const TablesFonds = () => {
       <Table className="table-main">
         <TableHead>
           <TableRow hover>
-            {DataHeader.map(column => (
+            {DataFixturesHeader.map(column => (
               <TableCell key={column.nom} align="center" sortDirection="desc">
                 <TableSortLabel
                   direction={column.direction}
@@ -50,28 +46,28 @@ const TablesFonds = () => {
           </TableRow>
         </TableHead>
         <TableBody>
-          {DataRows.map(row => {
+          {DataFixturesRows.map(row => {
             return (
               <TableRow key={row.nom} onClick={handleClickOpen} hover>
                 <TableCell align="center">
                   <Grid container>
-                    <div className={row.favoris ? "favoris" : "pas-favoris"} />
-                    <div>{row.nom}</div>
+                    <Box className={row.favoris ? "favoris" : "pas-favoris"} />
+                    <Box>{row.nom}</Box>
                   </Grid>
                 </TableCell>
                 <TableCell className="table-stars rating" align="center">
-                  <div className="morningStar" />
-                  <div className="morningStar" />
-                  <div className="morningStar" />
-                  <div className="morningStarEmpty" />
-                  <div className="morningStarEmpty" />
+                  <Box className="morningStar" />
+                  <Box className="morningStar" />
+                  <Box className="morningStar" />
+                  <Box className="morningStarEmpty" />
+                  <Box className="morningStarEmpty" />
                 </TableCell>
                 <TableCell className="table-stars rating" align="center">
-                  <div className="morningStar" />
-                  <div className="morningStar" />
-                  <div className="morningStar" />
-                  <div className="morningStarEmpty" />
-                  <div className="morningStarEmpty" />
+                  <Box className="morningStar" />
+                  <Box className="morningStar" />
+                  <Box className="morningStar" />
+                  <Box className="morningStarEmpty" />
+                  <Box className="morningStarEmpty" />
                 </TableCell>
                 <TableCell align="center">{row.category}</TableCell>
                 <TableCell align="center">{row.srri}</TableCell>
@@ -79,12 +75,12 @@ const TablesFonds = () => {
                 <TableCell align="center">{row.perfN}</TableCell>
                 <TableCell align="center">{row.perf3}</TableCell>
                 <TableCell className="table-stars doc" align="center">
-                  <a href="!#">
-                    <img src={rechercheIcon} alt="loupe recherche" />
-                  </a>
-                  <a href="!#">
-                    <img src={documentIcon} alt="document" />
-                  </a>
+                  <Link href="!#">
+                    <img src={RechercheIcon} alt="loupe recherche" />
+                  </Link>
+                  <Link href="!#">
+                    <img src={DocumentIcon} alt="document" />
+                  </Link>
                 </TableCell>
               </TableRow>
             );
@@ -96,4 +92,4 @@ const TablesFonds = () => {
   );
 };
 
-export default TablesFonds;
+export default TableFonds;

@@ -1,5 +1,6 @@
 import React from "react";
 import {
+  Box,
   FormControl,
   FormControlLabel,
   FormLabel,
@@ -7,8 +8,10 @@ import {
   InputBase,
   Radio,
   RadioGroup,
-  Toolbar
+  Toolbar,
+  IconButton
 } from "@material-ui/core";
+
 import SearchIcon from "@material-ui/icons/Search";
 
 const SearchBar = () => {
@@ -32,7 +35,7 @@ const SearchBar = () => {
               <FormLabel component="label" className="header-search-label">
                 Affiner votre recherche:
               </FormLabel>
-              <div>
+              <Box>
                 <FormControlLabel value="nom" control={<Radio />} label="Nom" />
                 <FormControlLabel
                   value="code"
@@ -44,7 +47,7 @@ const SearchBar = () => {
                   control={<Radio />}
                   label="Catégorie"
                 />
-              </div>
+              </Box>
             </RadioGroup>
           </FormControl>
         </Grid>
@@ -60,7 +63,9 @@ const SearchBar = () => {
               />
             </Grid>
             <Grid item xs={2} className="header-search-icon">
-              <SearchIcon />
+              <IconButton type="submit">
+                <SearchIcon />
+              </IconButton>
             </Grid>
           </Grid>
         </Grid>

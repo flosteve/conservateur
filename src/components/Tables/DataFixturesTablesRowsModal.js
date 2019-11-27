@@ -7,7 +7,7 @@ const data = [
     perf5a: "-6.3",
     perf8a: "10.5",
     perf10a: "40"
-  },
+  }
 ];
 
 export default data;
