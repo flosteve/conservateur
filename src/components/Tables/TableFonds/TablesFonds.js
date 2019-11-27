@@ -5,6 +5,7 @@ import ArrowDropDownIcon from "@material-ui/icons/ArrowDropDown";
 
 import DataHeader from "../customDataTablesHeader";
 import DataRows from "../customDataTablesRows";
+import ModalFonds from "../../Modals/ModalFonds";
 
 import {
   Table,
@@ -21,7 +22,7 @@ import {
     DialogContent,
   DialogContentText,
 } from "@material-ui/core/index";
-import ModalFonds from "../../Modals/ModalFonds";
+
 
 const TablesFonds = () => {
 

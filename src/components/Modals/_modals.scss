@@ -3,7 +3,7 @@
    background: $borderModal;
     padding: 40px;
     .modal-container {
-      background: $thirdColor;
+      background: $modalBackground;
       .modal-title {
         padding-top: 0;
         h2 {
@@ -20,6 +20,36 @@
         font-size: 2rem;
         color: $secondaryColor;
       }
+      .modal-sections-container {
+        margin-bottom: 2rem;
+        .modal-section {
+          .top {
+            border-bottom: 2px solid $secondaryColor;
+            padding-bottom: 1rem;
+          }
+          .bottom {
+            padding-top: 2rem;
+          }
+        }
+        .first {
+          border-right: 2px solid $secondaryColor;
+        }
+        .first, .second {
+          .item {
+            padding: 0 2rem;
+            .modal-subtitle {
+              font-size: 25px;
+              @include font-light;
+              text-transform: uppercase;
+              span {
+                color: $secondaryColor;
+                @include font-bold;
+              }
+            }
+          }
+        }
+      }
+
     }
   }
 

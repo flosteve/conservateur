@@ -2,20 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Modals/_modals.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Tables/customDataTablesRows.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFondsModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tables/customDataTablesHeaderModal.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tables/customDataTablesRowsModal.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Fonds/Fonds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Fonds/Fonds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Fonds/_fonds.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Fonds/_fonds.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderTabs/HeaderTabs.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTabs/HeaderTabs.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tables/Tables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modals/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/_modals.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Tables/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/_tables.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tables/customDataTables.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/customDataTablesHeader.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/variables/_colors.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_colors.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/variables/_fonts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/variables/_fonts.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,19 +24,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="69">
-                  <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Modals/ModalFonds.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="299">
-                  <caret line="12" column="51" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="51" />
+                <state relative-caret-position="290">
+                  <caret line="56" column="97" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="97" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -48,18 +35,14 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Tables/customDataTablesRows.js">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFondsModal.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-3" />
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Fonds/_fonds.scss">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="20" lean-forward="true" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
+                <state relative-caret-position="368">
+                  <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -68,11 +51,29 @@
       </split-first>
       <split-second>
         <leaf>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Tables/customDataTablesRowsModal.js">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/Modals/_modals.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="414">
-                  <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+                <state relative-caret-position="115">
+                  <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/Tables/_tables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="377">
+                  <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -80,8 +81,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/variables/_colors.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="184">
-                  <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+                <state relative-caret-position="253">
+                  <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
                 </state>
               </provider>
             </entry>
@@ -102,6 +103,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Data</find>
+      <find>modal-subtitle</find>
+      <find>nth</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -117,12 +120,16 @@
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/components/HeaderTabs/HeaderTabs.js" />
         <option value="$PROJECT_DIR$/src/components/Tables/customDataTablesHeader.js" />
-        <option value="$PROJECT_DIR$/src/components/Tables/_tables.scss" />
-        <option value="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" />
         <option value="$PROJECT_DIR$/src/components/Modals/-modal.scss" />
         <option value="$PROJECT_DIR$/src/style/main.scss" />
-        <option value="$PROJECT_DIR$/src/variables/_colors.scss" />
+        <option value="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js" />
+        <option value="$PROJECT_DIR$/src/components/Tables/customDataTablesHeaderModal.js" />
+        <option value="$PROJECT_DIR$/src/components/Tables/customDataTablesRowsModal.js" />
+        <option value="$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFondsModal.js" />
         <option value="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" />
+        <option value="$PROJECT_DIR$/src/variables/_fonts.scss" />
+        <option value="$PROJECT_DIR$/src/components/Tables/_tables.scss" />
+        <option value="$PROJECT_DIR$/src/variables/_colors.scss" />
         <option value="$PROJECT_DIR$/src/components/Modals/_modals.scss" />
       </list>
     </option>
@@ -190,6 +197,21 @@
               <item name="conservateur" type="b2602c69:ProjectViewProjectNode" />
               <item name="conservateur" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Tables" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conservateur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conservateur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Tables" type="462c0819:PsiDirectoryNode" />
+              <item name="TableFonds" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="conservateur" type="b2602c69:ProjectViewProjectNode" />
+              <item name="conservateur" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="style" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -224,6 +246,7 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/components/Tables" />
+      <recent name="$PROJECT_DIR$/src/components/Tables/TableFonds" />
       <recent name="$PROJECT_DIR$/src/components/Fonds" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
@@ -257,7 +280,7 @@
       <workItem from="1574756194421" duration="33241000" />
       <workItem from="1574843800600" duration="534000" />
       <workItem from="1574844547725" duration="1134000" />
-      <workItem from="1574845778968" duration="8392000" />
+      <workItem from="1574845778968" duration="15746000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -294,17 +317,24 @@
       <option name="project" value="LOCAL" />
       <updated>1574802460260</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Modal 1">
+      <created>1574854283831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574854283832</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9526000" />
+    <option name="totallyTimeSpent" value="16880000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1280" y="23" width="1920" height="1057" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25239617" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.25239617" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -403,7 +433,8 @@
     <MESSAGE value="Table 1" />
     <MESSAGE value="Table rating" />
     <MESSAGE value="Change Icon component" />
-    <option name="LAST_COMMIT_MESSAGE" value="Change Icon component" />
+    <MESSAGE value="Modal 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modal 1" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/components/Fonds/TableFonds/TableFonds.js" />
@@ -450,25 +481,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tables/customDataTablesRows.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Tables/_tables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="713">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/style/main.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -476,27 +488,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/variables/_colors.scss">
+    <entry file="file://$PROJECT_DIR$/src/components/Tables/customDataTablesRows.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="3" lean-forward="true" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+        <state relative-caret-position="-3" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tables/customDataTablesHeaderModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="2" column="21" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <caret line="5" column="22" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="20" selection-end-line="8" selection-end-column="20" />
+          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <caret line="17" column="21" selection-start-line="17" selection-start-column="21" selection-end-line="17" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFonds.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="49" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tables/customDataTablesRowsModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Modals/ModalFonds.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="12" column="51" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="290">
+          <caret line="56" column="97" selection-start-line="56" selection-start-column="83" selection-end-line="56" selection-end-column="97" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tables/TableFonds/TablesFondsModal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables/_fonts.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="724">
+          <caret line="47" column="70" selection-start-line="47" selection-start-column="70" selection-end-line="47" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Tables/_tables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="377">
+          <caret line="78" column="10" lean-forward="true" selection-start-line="78" selection-start-column="10" selection-end-line="78" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/variables/_colors.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="26" selection-end-line="11" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Modals/_modals.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="20" lean-forward="true" selection-start-line="18" selection-start-column="20" selection-end-line="18" selection-end-column="20" />
+        <state relative-caret-position="115">
+          <caret line="5" column="34" selection-start-line="5" selection-start-column="34" selection-end-line="5" selection-end-column="34" />
         </state>
       </provider>
     </entry>

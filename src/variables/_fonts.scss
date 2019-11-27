@@ -17,33 +17,33 @@ $default-font-stack: 'Roboto', 'Open Sans', sans-serif;
 }
 
 @mixin font-bolder {
-  font-family: 'TSTARPRO-Headline', $default-font-stack;
+  font-family: 'TSTARPRO-Headline', $default-font-stack !important;
 }
 
 @mixin font-bold {
-  font-family: 'TSTARPRO-Bold', $default-font-stack;
+  font-family: 'TSTARPRO-Bold', $default-font-stack !important;
 }
 
 @mixin font-medium {
-  font-family: 'TSTARPRO-Medium', $default-font-stack;
+  font-family: 'TSTARPRO-Medium', $default-font-stack !important;
 }
 
 @mixin font-regular {
-  font-family: 'TSTARPRO-Regular', $default-font-stack;
+  font-family: 'TSTARPRO-Regular', $default-font-stack !important;
 }
 
 @mixin font-italic {
-  font-family: 'TSTARPRO-Italic', $default-font-stack;
+  font-family: 'TSTARPRO-Italic', $default-font-stack !important;
 }
 
 @mixin font-bold-italic {
-  font-family: 'TSTARPRO-BoldItalic', $default-font-stack;
+  font-family: 'TSTARPRO-BoldItalic', $default-font-stack !important;
 }
 
 @mixin font-light-italic {
-  font-family: 'TSTARPRO-LightItalic', $default-font-stack;
+  font-family: 'TSTARPRO-LightItalic', $default-font-stack !important;
 }
 
 @mixin font-medium-italic {
-  font-family: 'TSTARPRO-MediumItalic', $default-font-stack;
+  font-family: 'TSTARPRO-MediumItalic', $default-font-stack !important;
 }

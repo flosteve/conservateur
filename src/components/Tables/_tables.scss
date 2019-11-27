@@ -73,4 +73,33 @@
       }
     }
   }
+  table.table-main.modal {
+    min-width: auto;
+    thead {
+      tr {
+        th {
+          @include font-light;
+        }
+        th:nth-child(odd) {
+          background-color: $tableCellDark;
+        }
+        th:nth-child(even) {
+          background-color: $tableCellLight;
+        }
+      }
+    }
+    tbody {
+      tr {
+        td {
+          @include font-bold;
+        }
+        td:nth-child(odd) {
+          background-color: $tableCellDark;
+        }
+        td:nth-child(even) {
+          background-color: $tableCellLight;
+        }
+      }
+    }
+  }
 }
