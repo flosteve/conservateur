@@ -2,7 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import fonds from "../../assets/icons/fonds-disponibles-icone.png";
 import { Grid, Typography } from "@material-ui/core";
-import Tables from "../Tables/Tables";
+import TablesFonds from "../Tables/TableFonds/TablesFonds";
 
 const Fonds = () => {
   return (
@@ -19,7 +19,7 @@ const Fonds = () => {
         </div>
       </Grid>
       <Grid container>
-        <Tables />
+        <TablesFonds />
       </Grid>
     </Layout>
   );

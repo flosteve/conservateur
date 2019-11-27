@@ -1,0 +1,26 @@
+.modal {
+  .MuiDialog-paper {
+   background: $borderModal;
+    padding: 40px;
+    .modal-container {
+      background: $thirdColor;
+      .modal-title {
+        padding-top: 0;
+        h2 {
+          font-size: 30px;
+          text-transform: uppercase;
+          @include font-bold;
+        }
+      }
+
+      svg {
+        position: absolute;
+        top: 60px;
+        right: 60px;
+        font-size: 2rem;
+        color: $secondaryColor;
+      }
+    }
+  }
+
+}

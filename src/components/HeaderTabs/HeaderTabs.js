@@ -5,7 +5,7 @@ import StarIcon from "@material-ui/icons/Star";
 
 const HeaderTabs = () => {
   const [value, setValue] = React.useState(0);
-  const [favoris, setFavoris] = React.useState(12);
+  const [favoris] = React.useState(12);
 
   const handleChange = (event, newValue) => {
     setValue(newValue);
