@@ -1,5 +1,5 @@
 import React from "react";
-import { AppBar, Toolbar, Grid, IconButton } from "@material-ui/core";
+import { AppBar, Toolbar, Grid, IconButton, Link } from "@material-ui/core";
 import logo from "../../assets/icons/logo-conservateur.png";
 import connexion from "../../assets/icons/connexion.png";
 import SearchBar from "../SearchBar/SearchBar";
@@ -11,9 +11,9 @@ const Header = () => {
       <Toolbar className="header-container">
         <Grid container className="header-main-grid">
           <Grid item xs={6} md={10}>
-            <a href="/">
+            <Link href="/">
               <img src={logo} alt="logo-conservateur" />
-            </a>
+            </Link>
           </Grid>
           <Grid item xs={6} md={2} className="header-connexion">
             <IconButton>

@@ -64,18 +64,21 @@
   font-weight: normal;
   font-style: normal;
 }
+/*
+Modal
+ */
 /****************
 @import components
  ****************/
 body {
-  font-family: "TSTARPRO-Regular", "Roboto", "Open Sans", sans-serif;
+  font-family: "TSTARPRO-Regular", "Roboto", "Open Sans", sans-serif !important;
 }
 body .page-container {
   padding-right: 5rem;
   padding-left: 5rem;
   padding-top: 2rem;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   body .page-container {
     padding-right: 2rem;
     padding-left: 2rem;
@@ -85,6 +88,37 @@ body .page-container {
 h1 {
   font-size: 30px !important;
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+}
+
+/*
+Star Icons
+ */
+.favoris {
+  width: 1rem;
+  height: 1.5rem;
+  background: no-repeat url("../../assets/icons/etoile-jaune.png");
+}
+
+.pas-favoris {
+  width: 1rem;
+  height: 1.5rem;
+  background: no-repeat url("../../assets/icons/etoile-jaune-vide.png");
+}
+
+.morningStar {
+  width: 1rem;
+  height: 1.5rem;
+  background: no-repeat url("../../assets/icons/etoile-pleine copie-secondaire.png");
+  display: inline-block;
+  padding: 0 3px;
+}
+
+.morningStarEmpty {
+  width: 1rem;
+  height: 1.5rem;
+  background: no-repeat url("../../assets/icons/etoile-vide-secondaire.png");
+  display: inline-block;
+  padding: 0 3px;
 }
 
 header.header-top {
@@ -109,7 +143,7 @@ header.header-top .header-container .header-main-grid .header-connexion {
   position: relative;
   color: black;
 }
-@media (max-width: 768px) {
+@media (max-width: 960px) {
   .header-search-bar {
     margin-left: 0;
   }
@@ -160,12 +194,12 @@ header.header-top .header-container .header-main-grid .header-connexion {
 }
 .header-tab-container .header-tab-item.Mui-selected span {
   color: #a4917e;
-  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
   font-size: 18px;
 }
 .header-tab-container .header-tab-item span {
   color: white;
-  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
   font-size: 18px;
   flex-direction: row;
 }
@@ -180,75 +214,171 @@ header.header-top .header-container .header-main-grid .header-connexion {
 
 .title-logo {
   margin-right: 1rem;
+  margin-left: 1rem;
 }
 .title-logo + div h1 {
   text-transform: uppercase;
+  line-height: 1.1;
 }
 .title-logo + div h1 span {
   color: #a4917e;
-  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
 }
 
-table.table-main {
+.table-root {
+  width: 100%;
+  overflow-x: auto;
+}
+.table-root table.table-main {
   margin: 2rem 0;
+  min-width: 600px;
 }
-table.table-main thead tr th {
+.table-root table.table-main thead tr th {
   font-size: 15px;
-  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
 }
-table.table-main thead tr th .active {
+.table-root table.table-main thead tr th .active {
   color: #a4917e;
 }
-table.table-main thead tr th .active svg {
+.table-root table.table-main thead tr th .active svg {
   color: #a4917e !important;
 }
-table.table-main tbody tr:nth-child(odd) {
+.table-root table.table-main tbody tr:nth-child(odd) {
   background-color: #edebe8;
 }
-table.table-main tbody tr td {
+.table-root table.table-main tbody tr td {
   font-size: 15px;
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
   text-transform: uppercase;
+  border-right: 1px solid #d4c8bb;
+  border-bottom: none;
 }
-table.table-main tbody tr td.table-stars {
-  padding: 0;
-  min-width: 135px;
+.table-root table.table-main tbody tr td.table-stars {
+  min-width: 120px;
 }
-table.table-main tbody tr td .MuiGrid-container {
+.table-root table.table-main tbody tr td .MuiGrid-container {
   flex-wrap: nowrap;
 }
-table.table-main tbody tr td .MuiGrid-container > div {
+.table-root table.table-main tbody tr td .MuiGrid-container > div {
   padding: 0 5px;
 }
-table.table-main tbody tr td.doc {
+.table-root table.table-main tbody tr td.doc {
   text-align: center;
 }
-table.table-main tbody tr td.doc img {
+.table-root table.table-main tbody tr td.doc img {
   padding: 0 10px;
 }
-table.table-main tbody tr td .favoris {
-  width: 1rem;
-  height: 1.5rem;
-  background: no-repeat url("../../assets/icons/etoile-jaune.png");
+.table-root table.table-main.modal {
+  min-width: auto;
 }
-table.table-main tbody tr td .pas-favoris {
-  width: 1rem;
-  height: 1.5rem;
-  background: no-repeat url("../../assets/icons/etoile-jaune-vide.png");
+.table-root table.table-main.modal thead tr th {
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
 }
-table.table-main tbody tr td .morningStar {
-  width: 1rem;
-  height: 1.5rem;
-  background: no-repeat url("../../assets/icons/etoile-pleine copie-secondaire.png");
-  display: inline-block;
-  padding: 0 3px;
+.table-root table.table-main.modal thead tr th:nth-child(odd) {
+  background-color: #c8bfb6;
 }
-table.table-main tbody tr td .morningStarEmpty {
-  width: 1rem;
-  height: 1.5rem;
-  background: no-repeat url("../../assets/icons/etoile-vide-secondaire.png");
-  display: inline-block;
-  padding: 0 3px;
+.table-root table.table-main.modal thead tr th:nth-child(even) {
+  background-color: #e3ded8;
+}
+.table-root table.table-main.modal tbody tr td {
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
+}
+.table-root table.table-main.modal tbody tr td:nth-child(odd) {
+  background-color: #c8bfb6;
+}
+.table-root table.table-main.modal tbody tr td:nth-child(even) {
+  background-color: #e3ded8;
+}
+
+.modal .MuiDialog-paper {
+  background: rgba(178, 165, 152, 0.5);
+  padding: 40px;
+}
+.modal .MuiDialog-paper .modal-container {
+  background: #edeae6;
+}
+.modal .MuiDialog-paper .modal-container .modal-title {
+  padding-top: 0;
+}
+.modal .MuiDialog-paper .modal-container .modal-title h2 {
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
+}
+.modal .MuiDialog-paper .modal-container svg {
+  position: absolute;
+  top: 60px;
+  right: 60px;
+  font-size: 2rem;
+  color: #a4917e;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container {
+  margin-bottom: 2rem;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .modal-section .top {
+  border-bottom: 2px solid #a4917e;
+  padding-bottom: 1rem;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .modal-section .bottom {
+  padding-top: 2rem;
+}
+@media (max-width: 960px) {
+  .modal .MuiDialog-paper .modal-container .modal-sections-container .modal-section .bottom {
+    border-bottom: 2px solid #a4917e;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+  }
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first {
+  border-right: 2px solid #a4917e;
+}
+@media (max-width: 960px) {
+  .modal .MuiDialog-paper .modal-container .modal-sections-container .first {
+    border: none;
+  }
+}
+@media (max-width: 960px) {
+  .modal .MuiDialog-paper .modal-container .modal-sections-container .second .bottom:last-of-type {
+    border: none;
+  }
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item {
+  padding: 0 2rem;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item .modal-subtitle, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item .modal-subtitle {
+  font-size: 25px;
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+  text-transform: uppercase;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item .modal-subtitle span, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item .modal-subtitle span {
+  color: #a4917e;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li p:first-child, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li p:first-child {
+  min-width: 70%;
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li span, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li span {
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li span.esg, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li span.esg {
+  color: #efd567;
+  font-size: 20px;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li span.risque, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li span.risque {
+  color: orange;
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list.secondaire li span, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list.secondaire li span {
+  font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
+}
+.modal .MuiDialog-paper .modal-container .document-link, .modal .MuiDialog-paper .modal-container .search-link {
+  text-align: right;
+}
+.modal .MuiDialog-paper .modal-container .modal-paragraphe {
+  padding: 1rem;
+  line-height: 2;
+  font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
 }
 
 /*# sourceMappingURL=main.css.map */
