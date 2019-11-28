@@ -26,7 +26,7 @@ const ModalFonds = ({ open, setOpen }) => {
       open={open}
       onClose={handleClose}
       fullWidth
-      maxWidth="lg"
+      maxWidth="md"
       className="modal"
     >
       <DialogContent className="modal-container">
@@ -43,7 +43,7 @@ const ModalFonds = ({ open, setOpen }) => {
                   component="h3"
                   className="modal-subtitle"
                 >
-                  <span> performances</span>
+                  <span> Performances</span>
                 </Typography>
               </Grid>
               <Grid item xs={12} className="item">
@@ -57,40 +57,40 @@ const ModalFonds = ({ open, setOpen }) => {
                   component="h3"
                   className="modal-subtitle"
                 >
-                  Information
+                  Informations
                   <span> secondaires</span>
                 </Typography>
               </Grid>
               <Grid item xs={12} className="item">
                 <List component="ul" className="modal-list secondaire">
                   <ListItem component="li">
-                    <Typography>Horizon de placement: </Typography>
+                    <Typography>Horizon de placement : </Typography>
                     <Typography component="span">3 à 5 ans</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>VL: </Typography>
+                    <Typography>VL : </Typography>
                     <Typography component="span">350</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Date de VL:</Typography>
+                    <Typography>Date de VL :</Typography>
                     <Typography component="span">30/04/2019</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Volatilité de 3 ans:</Typography>
+                    <Typography>Volatilité de 3 ans :</Typography>
                     <Typography component="span">-2</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Ratio de sharp 3 ans:</Typography>
+                    <Typography>Ratio de sharp 3 ans :</Typography>
                     <Typography component="span">0.07</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Notation ESG:</Typography>
+                    <Typography>Notation ESG :</Typography>
                     <Typography component="span" className="esg">
                       B+
                     </Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>ISR:</Typography>
+                    <Typography>ISR :</Typography>
                     <Typography component="span">OUI</Typography>
                   </ListItem>
                 </List>
@@ -117,11 +117,11 @@ const ModalFonds = ({ open, setOpen }) => {
               <Grid item xs={12} className="item">
                 <List component="ul" className="modal-list generale">
                   <ListItem component="li">
-                    <Typography>Code ISIN:</Typography>
+                    <Typography>Code ISIN :</Typography>
                     <Typography component="span">FR15431201</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Note Morning Start:</Typography>
+                    <Typography>Note Morning Star :</Typography>
                     <div className="morningStar" />
                     <div className="morningStar" />
                     <div className="morningStar" />
@@ -129,7 +129,7 @@ const ModalFonds = ({ open, setOpen }) => {
                     <div className="morningStarEmpty" />
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Note Quantalys:</Typography>
+                    <Typography>Note Quantalys :</Typography>
                     <div className="morningStar" />
                     <div className="morningStar" />
                     <div className="morningStar" />
@@ -137,15 +137,15 @@ const ModalFonds = ({ open, setOpen }) => {
                     <div className="morningStarEmpty" />
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Catégorie:</Typography>
+                    <Typography>Catégorie :</Typography>
                     <Typography component="span">OPC</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Société de gestion:</Typography>
+                    <Typography>Société de gestion :</Typography>
                     <Typography component="span">OUI</Typography>
                   </ListItem>
                   <ListItem component="li">
-                    <Typography>Indicateur de risque:</Typography>
+                    <Typography>Indicateur de risque :</Typography>
                     <Typography component="span" className="risque">
                       3
                     </Typography>

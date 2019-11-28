@@ -4,7 +4,7 @@
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/ModalFonds.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Tables/_tables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Tables/_tables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Modals/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/_modals.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
     </list>
@@ -18,6 +18,11 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>second</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,7 +107,10 @@
       <workItem from="1574844547725" duration="1134000" />
       <workItem from="1574845778968" duration="17398000" />
       <workItem from="1574865866845" duration="7766000" />
-      <workItem from="1574929775059" duration="4381000" />
+      <workItem from="1574929775059" duration="4863000" />
+      <workItem from="1574955920478" duration="1191000" />
+      <workItem from="1574957190727" duration="150000" />
+      <workItem from="1574957707820" duration="198000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -195,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574932569474</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Adjustments">
+      <created>1574934553937</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1574934553937</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -245,7 +260,8 @@
     <MESSAGE value="Responsive + build" />
     <MESSAGE value="React Errors" />
     <MESSAGE value="Modal responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modal responsive" />
+    <MESSAGE value="Adjustments" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adjustments" />
   </component>
   <component name="masterDetails">
     <states>

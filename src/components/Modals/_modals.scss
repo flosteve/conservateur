@@ -58,11 +58,29 @@
           @include md {
             border: none;
           }
+          .item {
+            ul.modal-list {
+              li {
+                p:first-child {
+                  min-width: 61%;
+                }
+              }
+            }
+          }
         }
         .second {
           .bottom:last-of-type {
             @include md {
               border: none;
+            }
+          }
+          .item {
+            ul.modal-list {
+              li {
+                p:first-child {
+                  min-width: 53%;
+                }
+              }
             }
           }
         }
@@ -85,7 +103,6 @@
                   padding-right: 0;
                 }
                 p:first-child {
-                  min-width: 70%;
                   @include font-light;
                   @include sm {
                     min-width: 65%;
@@ -116,6 +133,7 @@
       }
       .document-link, .search-link {
         text-align: right;
+        padding-right: 2.5rem
       }
       .modal-paragraphe {
         padding: 1rem;

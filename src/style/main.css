@@ -424,10 +424,16 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
     border: none;
   }
 }
+.modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li p:first-child {
+  min-width: 61%;
+}
 @media (max-width: 960px) {
   .modal .MuiDialog-paper .modal-container .modal-sections-container .second .bottom:last-of-type {
     border: none;
   }
+}
+.modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li p:first-child {
+  min-width: 53%;
 }
 .modal .MuiDialog-paper .modal-container .modal-sections-container .first .item, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item {
   padding: 0 2rem;
@@ -448,7 +454,6 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
   }
 }
 .modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li p:first-child, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li p:first-child {
-  min-width: 70%;
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
 }
 @media (max-width: 600px) {
@@ -472,6 +477,7 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
 }
 .modal .MuiDialog-paper .modal-container .document-link, .modal .MuiDialog-paper .modal-container .search-link {
   text-align: right;
+  padding-right: 2.5rem;
 }
 .modal .MuiDialog-paper .modal-container .modal-paragraphe {
   padding: 1rem;
