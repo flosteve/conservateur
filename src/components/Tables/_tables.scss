@@ -2,13 +2,16 @@
   width: 100%;
   overflow-x: auto;
   table.table-main {
-    margin: 2rem 0;
+    margin: 1rem 0;
     min-width: 600px;
     thead {
       tr {
         th {
-          font-size: 15px;
+          font-size: 16px;
           @include font-bold;
+          svg {
+            margin: 0;
+          }
           .active {
             color: $secondaryColor;
             svg {
@@ -33,7 +36,7 @@
           border-right: 1px solid $thirdColor;
           border-bottom: none;
           &.table-stars {
-            min-width: 120px;
+            min-width: 110px;
           }
           .MuiGrid-container {
             flex-wrap: nowrap;

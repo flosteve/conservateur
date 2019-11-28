@@ -29,7 +29,7 @@ const TableFonds = () => {
     <Box className="table-root">
       <Table className="table-main">
         <TableHead>
-          <TableRow hover>
+          <TableRow>
             {DataFixturesHeader.map(column => (
               <TableCell key={column.nom} align="center" sortDirection="desc">
                 <TableSortLabel

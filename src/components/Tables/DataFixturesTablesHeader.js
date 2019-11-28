@@ -49,7 +49,7 @@ const data = [
     className: ""
   },
   {
-    nom: "Perf. 3 ans",
+    nom: "Perf. 3a",
     direction: "desc",
     active: true,
     href: "!#",
