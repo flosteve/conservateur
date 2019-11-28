@@ -299,6 +299,9 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
 .table-root table.table-main thead tr th .active svg {
   color: #a4917e !important;
 }
+.table-root table.table-main tbody tr:hover {
+  cursor: pointer;
+}
 .table-root table.table-main tbody tr:nth-child(odd) {
   background-color: #edebe8;
 }

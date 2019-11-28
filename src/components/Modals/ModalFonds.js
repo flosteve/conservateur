@@ -43,8 +43,7 @@ const ModalFonds = ({ open, setOpen }) => {
                   component="h3"
                   className="modal-subtitle"
                 >
-                  Indice de
-                  <span> performance</span>
+                  <span> performances</span>
                 </Typography>
               </Grid>
               <Grid item xs={12} className="item">
