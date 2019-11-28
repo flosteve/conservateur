@@ -23,7 +23,7 @@ const SearchBar = () => {
   return (
     <Toolbar className="header-search-bar">
       <Grid container className="header-search-container" spacing={4}>
-        <Grid item xs={12} sm={6} md={8} className="header-search-filter">
+        <Grid item xs={12} sm={6} md={7} className="header-search-filter">
           <FormControl component="fieldset" fullWidth>
             <RadioGroup
               aria-label="choices"
@@ -51,7 +51,7 @@ const SearchBar = () => {
             </RadioGroup>
           </FormControl>
         </Grid>
-        <Grid item xs={12} sm={6} md={4}>
+        <Grid item xs={12} sm={6} md={5}>
           <Grid container className="header-search-input">
             <Grid item xs={10}>
               <InputBase

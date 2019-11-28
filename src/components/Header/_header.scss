@@ -9,9 +9,14 @@ header.header-top {
       padding: 0;
     }
     .header-main-grid {
-      padding: 1rem 2rem;
+      padding: 0 2rem;
       @include sm {
         padding: 1rem;
+      }
+      a {
+        &:hover {
+          background-color: transparent;
+        }
       }
       .header-connexion {
         text-align: end;

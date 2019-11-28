@@ -10,14 +10,14 @@
     padding: 16px;
   }
   .header-search-container {
-    padding: 2rem;
+    padding: 1rem 2rem;
     @include sm {
       padding: 1rem;
     }
     .header-search-filter {
       label, .MuiFormControlLabel-label {
         @include font-light;
-        font-size: 15px;
+        font-size: 16px;
       }
       .header-search-label {
         display: inline-flex;
@@ -39,6 +39,9 @@
       .header-search-field {
         background-color: white;
         padding: 5px 10px;
+        input::placeholder {
+          font-size: 16px;
+        }
       }
       .header-search-icon {
         height: auto;
