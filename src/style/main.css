@@ -368,10 +368,20 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
 .modal .MuiDialog-paper .modal-container .modal-title {
   padding-top: 0;
 }
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container .modal-title {
+    padding-top: 10px;
+  }
+}
 .modal .MuiDialog-paper .modal-container .modal-title h2 {
   font-size: 30px;
   text-transform: uppercase;
   font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
+}
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container .modal-title h2 {
+    line-height: 1;
+  }
 }
 .modal .MuiDialog-paper .modal-container svg {
   position: absolute;
@@ -382,7 +392,7 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
 }
 @media (max-width: 600px) {
   .modal .MuiDialog-paper .modal-container svg {
-    top: 30px;
+    top: 35px;
     right: 30px;
   }
 }
@@ -428,9 +438,20 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
   color: #a4917e;
   font-family: "TSTARPRO-Bold", "Roboto", "Open Sans", sans-serif !important;
 }
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
 .modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li p:first-child, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li p:first-child {
   min-width: 70%;
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+}
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li p:first-child, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li p:first-child {
+    min-width: 65%;
+  }
 }
 .modal .MuiDialog-paper .modal-container .modal-sections-container .first .item ul.modal-list li span, .modal .MuiDialog-paper .modal-container .modal-sections-container .second .item ul.modal-list li span {
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
@@ -453,6 +474,12 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
   padding: 1rem;
   line-height: 2;
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
+}
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container .modal-paragraphe {
+    padding-left: 0;
+    padding-right: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

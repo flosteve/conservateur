@@ -14,10 +14,16 @@
       }
       .modal-title {
         padding-top: 0;
+        @include sm {
+          padding-top: 10px;
+        }
         h2 {
           font-size: 30px;
           text-transform: uppercase;
           @include font-bold;
+          @include sm {
+            line-height: 1;
+          }
         }
       }
       svg {
@@ -27,7 +33,7 @@
         font-size: 2rem;
         color: $secondaryColor;
         @include sm {
-          top: 30px;
+          top: 35px;
           right: 30px;
         }
       }
@@ -74,9 +80,16 @@
             }
             ul.modal-list {
               li {
+                @include sm {
+                  padding-left: 0;
+                  padding-right: 0;
+                }
                 p:first-child {
                   min-width: 70%;
                   @include font-light;
+                  @include sm {
+                    min-width: 65%;
+                  }
                 }
                 span {
                   @include font-light;
@@ -108,6 +121,10 @@
         padding: 1rem;
         line-height: 2;
         @include font-light;
+        @include sm {
+          padding-left: 0;
+          padding-right: 0;
+        }
       }
     }
   }
