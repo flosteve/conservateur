@@ -47,7 +47,7 @@ const Header = () => {
               keepMounted
               open={Boolean(anchorEl)}
               onClose={handleClose}
-              anchorPosition={{ top: 20 }}
+              anchorPosition={{ top: 20, left: 20 }}
             >
               <MenuItem onClick={handleClose}>Paramètres</MenuItem>
               <MenuItem onClick={handleClose}>se déconnecter</MenuItem>

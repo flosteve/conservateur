@@ -353,10 +353,17 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
 @media (max-width: 600px) {
   .modal .MuiDialog-paper {
     margin: 0;
+    padding: 20px;
+    width: 100%;
   }
 }
 .modal .MuiDialog-paper .modal-container {
   background: #edeae6;
+}
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container {
+    padding: 10px;
+  }
 }
 .modal .MuiDialog-paper .modal-container .modal-title {
   padding-top: 0;
@@ -372,6 +379,12 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
   right: 60px;
   font-size: 2rem;
   color: #a4917e;
+}
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper .modal-container svg {
+    top: 30px;
+    right: 30px;
+  }
 }
 .modal .MuiDialog-paper .modal-container .modal-sections-container {
   margin-bottom: 2rem;

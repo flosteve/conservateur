@@ -4,9 +4,14 @@
     padding: 40px;
     @include sm {
       margin: 0;
+      padding: 20px;
+      width: 100%;
     }
     .modal-container {
       background: $modalBackground;
+      @include sm {
+        padding: 10px;
+      }
       .modal-title {
         padding-top: 0;
         h2 {
@@ -21,6 +26,10 @@
         right: 60px;
         font-size: 2rem;
         color: $secondaryColor;
+        @include sm {
+          top: 30px;
+          right: 30px;
+        }
       }
       .modal-sections-container {
         margin-bottom: 2rem;

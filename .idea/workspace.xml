@@ -4,9 +4,8 @@
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Layout/Layout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Layout/Layout.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Modals/_modals.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Modals/_modals.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/_searchBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/_searchBar.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
     </list>
@@ -94,7 +93,7 @@
       <workItem from="1574844547725" duration="1134000" />
       <workItem from="1574845778968" duration="17398000" />
       <workItem from="1574865866845" duration="7766000" />
-      <workItem from="1574929775059" duration="847000" />
+      <workItem from="1574929775059" duration="1842000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -166,7 +165,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574887287663</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Responsive + build">
+      <created>1574930788381</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1574930788381</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,7 +219,8 @@
     <MESSAGE value="Modal 3 responsive" />
     <MESSAGE value="Main Menu" />
     <MESSAGE value="General Factoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="General Factoring" />
+    <MESSAGE value="Responsive + build" />
+    <option name="LAST_COMMIT_MESSAGE" value="Responsive + build" />
   </component>
   <component name="masterDetails">
     <states>

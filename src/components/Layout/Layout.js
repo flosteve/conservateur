@@ -6,9 +6,11 @@ import { Container } from "@material-ui/core";
 const Layout = props => (
   <>
     <Header />
-    <Container maxWidth="lg" className="page-container">
-      {props.children}
-    </Container>
+    <Container
+      maxWidth="lg"
+      className="page-container"
+      children={props.children}
+    />
   </>
 );
 
