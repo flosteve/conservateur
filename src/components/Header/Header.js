@@ -57,8 +57,8 @@ const Header = () => {
       </Toolbar>
       <SearchBar />
       <Grid container>
-        <Grid item xs={3} sm={5} md={7} lg={8} xl={9} />
-        <Grid item xs={9} sm={7} md={5} lg={4} xl={3}>
+        <Grid item xs={1} sm={5} md={7} lg={8} xl={9} />
+        <Grid item xs={11} sm={7} md={5} lg={4} xl={3}>
           <HeaderTabs />
         </Grid>
       </Grid>

@@ -2,6 +2,9 @@
   .MuiDialog-paper {
    background: $borderModal;
     padding: 40px;
+    @include sm {
+      margin: 0;
+    }
     .modal-container {
       background: $modalBackground;
       .modal-title {

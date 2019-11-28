@@ -131,8 +131,18 @@ header.header-top .header-container {
   border-bottom: 2px solid #a4917e;
   padding-left: 3rem;
 }
+@media (max-width: 600px) {
+  header.header-top .header-container {
+    padding: 0;
+  }
+}
 header.header-top .header-container .header-main-grid {
   padding: 1rem 2rem;
+}
+@media (max-width: 600px) {
+  header.header-top .header-container .header-main-grid {
+    padding: 1rem;
+  }
 }
 header.header-top .header-container .header-main-grid .header-connexion {
   text-align: end;
@@ -172,8 +182,18 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
     margin-left: 0;
   }
 }
+@media (max-width: 600px) {
+  .header-search-bar {
+    padding: 16px;
+  }
+}
 .header-search-bar .header-search-container {
   padding: 2rem;
+}
+@media (max-width: 600px) {
+  .header-search-bar .header-search-container {
+    padding: 1rem;
+  }
 }
 .header-search-bar .header-search-container .header-search-filter label, .header-search-bar .header-search-container .header-search-filter .MuiFormControlLabel-label {
   font-family: "TSTARPRO-Light", "Roboto", "Open Sans", sans-serif !important;
@@ -329,6 +349,11 @@ header.header-top .header-container .header-main-grid .header-connexion button:h
 .modal .MuiDialog-paper {
   background: rgba(178, 165, 152, 0.5);
   padding: 40px;
+}
+@media (max-width: 600px) {
+  .modal .MuiDialog-paper {
+    margin: 0;
+  }
 }
 .modal .MuiDialog-paper .modal-container {
   background: #edeae6;
