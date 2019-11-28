@@ -21,6 +21,7 @@ header.header-top {
       .header-connexion {
         text-align: end;
         button {
+          padding-top: 15px;
           &:hover {
             background: $borderModal;
           }

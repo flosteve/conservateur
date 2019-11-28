@@ -150,6 +150,9 @@ header.header-top .header-container .header-main-grid a:hover {
 header.header-top .header-container .header-main-grid .header-connexion {
   text-align: end;
 }
+header.header-top .header-container .header-main-grid .header-connexion button {
+  padding-top: 15px;
+}
 header.header-top .header-container .header-main-grid .header-connexion button:hover {
   background: rgba(178, 165, 152, 0.5);
 }

@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2c7eb729-cbc4-48af-a251-16f27827440e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/components/Header/_header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/_header.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/HeaderTabs/_headerTabs.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/SearchBar.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/SearchBar/_searchBar.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/SearchBar/_searchBar.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/main.css.map" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -108,7 +102,7 @@
       <workItem from="1574929775059" duration="4863000" />
       <workItem from="1574955920478" duration="1191000" />
       <workItem from="1574957190727" duration="150000" />
-      <workItem from="1574957707820" duration="2572000" />
+      <workItem from="1574957707820" duration="2999000" />
     </task>
     <task id="LOCAL-00001" summary="Search bar">
       <created>1574767613274</created>
@@ -222,7 +216,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574958858638</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Header Corrections">
+      <created>1574960540719</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1574960540719</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -275,7 +276,8 @@
     <MESSAGE value="Adjustments" />
     <MESSAGE value="Modal Corrections" />
     <MESSAGE value="Table Corrections" />
-    <option name="LAST_COMMIT_MESSAGE" value="Table Corrections" />
+    <MESSAGE value="Header Corrections" />
+    <option name="LAST_COMMIT_MESSAGE" value="Header Corrections" />
   </component>
   <component name="masterDetails">
     <states>
