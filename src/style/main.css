@@ -94,16 +94,24 @@ h1 {
 /*
 Star Icons
  */
-.favoris {
-  width: 1rem;
+.favori-star-container {
+  align-items: center;
+}
+.favori-star-container .favoris, .favori-star-container .pas-favoris {
+  width: 2rem;
   height: 1.5rem;
+}
+.favori-star-container .favoris.star, .favori-star-container .pas-favoris.star {
+  background-position-y: center;
+}
+.favori-star-container .favoris {
   background: no-repeat url("../../assets/icons/etoile-jaune.png");
 }
-
-.pas-favoris {
-  width: 1rem;
-  height: 1.5rem;
+.favori-star-container .pas-favoris {
   background: no-repeat url("../../assets/icons/etoile-jaune-vide.png");
+}
+.favori-star-container .favoris-title {
+  padding-left: 1.5rem !important;
 }
 
 .morningStar {

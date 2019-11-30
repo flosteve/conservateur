@@ -50,9 +50,14 @@ const TableFonds = () => {
             return (
               <TableRow key={row.nom} onClick={handleClickOpen} hover>
                 <TableCell align="center">
-                  <Grid container>
-                    <Box className={row.favoris ? "favoris" : "pas-favoris"} />
-                    <Box>{row.nom}</Box>
+                  <Grid container className="favori-star-container">
+                    <Link
+                      href="!#"
+                      className={
+                        row.favoris ? "favoris star" : "pas-favoris star"
+                      }
+                    />
+                    <Box className="favoris-title">{row.nom}</Box>
                   </Grid>
                 </TableCell>
                 <TableCell className="table-stars rating" align="center">
